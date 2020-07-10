@@ -30,7 +30,6 @@ function chat() {
                 if (index < 0) {
                     index = 0;
                 }
-                console.log(index);
                 const botMessage = botMessages[index];
                 chatWidgetMessages.innerHTML += `
           <div class="message">
